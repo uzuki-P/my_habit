@@ -1,0 +1,23 @@
+name: my_habit
+description: "Track your bad/good habit. Maybe give yourself reward or punishment afterwards???"
+publish_to: 'none' 
+
+version: 0.0.1+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter: { sdk: flutter }
+
+  cupertino_icons: ^1.0.8
+  styled_widget: ^0.4.1
+
+dev_dependencies:
+  flutter_test: { sdk: flutter }
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
